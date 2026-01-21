@@ -62,14 +62,15 @@ CLI-LLM/
 
 Download the **hzmmmm/PHM2012_LLM** dataset from Hugging Face and organize it within the project:
 
-1. Visit the dataset repository: [hzmmmm/PHM2012_LLM](https://huggingface.co/datasets/hzmmmm/PHM2012_LLM)
+1. Visit the dataset repository: [hzmmmm/CRWU_LLM](https://huggingface.co/datasets/hzmmmm/CRWU_LLM)
 2. Create the directory `/home/hzm/my_github_project/CLI-LLM/DATA/CRWU`.
 3. Copy all downloaded model files to the `data` directory. The final directory structure should be:
 ```
 CLI-LLM/
 └── data/
-    ├── CRWU_data.hdf5
-    └── CRWU_data.sqlite
+    └── 4096/
+        ├── CRWU_data.hdf5
+        └── CRWU_data.sqlite
 
 ```
 
